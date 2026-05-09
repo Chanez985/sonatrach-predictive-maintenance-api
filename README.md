@@ -4,6 +4,8 @@ AI-powered predictive maintenance API for critical industrial assets.
 
 This project predicts the Remaining Useful Life (RUL) of industrial equipment using sensor data from the NASA C-MAPSS FD001 turbofan degradation dataset. The model output is converted into an operational maintenance decision: failure risk level, maintenance priority, and recommended action.
 
+---
+
 ## Project Objective
 
 The objective is to build a production-style machine learning API that can support maintenance teams in monitoring critical oil and gas equipment.
@@ -16,22 +18,28 @@ The API receives operational and sensor measurements and returns:
 - asset health score;
 - operational recommendation.
 
+---
+
 ## Business Context
 
 In an industrial environment such as oil and gas operations, unexpected equipment failures can cause production downtime, high maintenance costs, and safety risks.
 
 Predictive maintenance helps decision-makers anticipate failures and prioritize interventions before critical breakdowns occur.
 
+---
+
 ## Dataset
 
 Dataset used:
 
-- NASA C-MAPSS FD001
-- Run-to-failure simulation data
-- Multivariate time-series sensor measurements
-- 100 training assets and 100 test assets
+- NASA C-MAPSS FD001;
+- run-to-failure simulation data;
+- multivariate time-series sensor measurements;
+- 100 training assets and 100 test assets.
 
 The target variable is Remaining Useful Life, capped at 125 cycles to stabilize early-life degradation modeling.
+
+---
 
 ## Machine Learning Pipeline
 
@@ -50,6 +58,8 @@ The project includes:
 11. FastAPI deployment layer
 12. Automated API testing
 
+---
+
 ## Feature Engineering
 
 Several industrial indicators were created:
@@ -63,6 +73,8 @@ Several industrial indicators were created:
 - operational setting magnitude.
 
 These features transform raw sensor readings into interpretable maintenance indicators.
+
+---
 
 ## Final Model
 
@@ -78,9 +90,11 @@ Performance:
 | External Test MAE | 11.54 cycles |
 | External Test R² | 0.839 |
 
+---
+
 ## Failure Risk Decision Layer
 
-The predicted RUL is converted into a maintenance risk level using the selected business strategy:
+The predicted RUL is converted into a maintenance risk level using the selected business strategy.
 
 | Risk Level | RUL Threshold | Maintenance Priority |
 |---|---:|---|
@@ -98,6 +112,8 @@ Final risk classification performance:
 | Critical Risk Recall | 1.00 |
 | Dangerous Underestimations | 0 |
 
+---
+
 ## API Endpoints
 
 The FastAPI service exposes:
@@ -107,7 +123,13 @@ GET /
 GET /health
 GET /model-info
 POST /predict-maintenance-risk
-Example API Request
+```
+
+---
+
+## Example API Request
+
+```json
 {
   "asset_id": "COMP-102",
   "time_in_cycles": 180,
@@ -129,7 +151,13 @@ Example API Request
   "sensor_20": 38.8,
   "sensor_21": 23.3
 }
-Example API Response
+```
+
+---
+
+## Example API Response
+
+```json
 {
   "asset_id": "COMP-102",
   "input_cycle": 180,
@@ -142,30 +170,75 @@ Example API Response
   "threshold_strategy": "Conservative_1",
   "model_name": "Gradient Boosting Regressor"
 }
-How to Run Locally
+```
 
-Install dependencies:
+---
 
-pip install -r requirements.txt
+## Demo
+
+The API can be tested locally using Swagger UI after running the FastAPI server.
 
 Run the API:
 
+```bash
 python -m uvicorn api.main:app --host 127.0.0.1 --port 8001
+```
 
 Open the API documentation:
 
+```text
 http://127.0.0.1:8001/docs
+```
 
 Health check:
 
+```text
 http://127.0.0.1:8001/health
-Run Tests
+```
+
+A public deployment link can be added later using Render, Railway, or Docker-based cloud deployment.
+
+---
+
+## How to Run Locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the API:
+
+```bash
+python -m uvicorn api.main:app --host 127.0.0.1 --port 8001
+```
+
+Open Swagger UI:
+
+```text
+http://127.0.0.1:8001/docs
+```
+
+---
+
+## Run Tests
+
+```bash
 python -m pytest -q
+```
 
 Expected result:
 
+```text
 3 passed
-Project Structure
+```
+
+---
+
+## Project Structure
+
+```text
 sonatrach-predictive-maintenance-api/
 │
 ├── api/
@@ -189,6 +262,7 @@ sonatrach-predictive-maintenance-api/
 │   └── sonatrach_predictive_maintenance.ipynb
 │
 ├── reports/
+├── screenshots/
 ├── src/
 ├── tests/
 │   └── test_api.py
@@ -197,17 +271,25 @@ sonatrach-predictive-maintenance-api/
 ├── requirements.txt
 ├── Dockerfile
 └── .gitignore
-Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-FastAPI
-Pydantic
-Joblib
-Pytest
-Uvicorn
-Swagger UI
+```
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- FastAPI
+- Pydantic
+- Joblib
+- Pytest
+- Uvicorn
+- Swagger UI
+
+---
+
 ## Screenshots
 
 ### Swagger API Documentation
@@ -237,9 +319,11 @@ Swagger UI
 ### Automated API Tests
 
 ![Pytest Results](screenshots/07_pytest_results.png)
-Author
+
+---
+
+## Author
 
 Chanez Benidir
 
 Data Science and Statistics student interested in machine learning, predictive maintenance, industrial AI, and decision-support systems.
-```text
