@@ -219,7 +219,19 @@ Open Swagger UI:
 ```text
 http://127.0.0.1:8001/docs
 ```
+## Live Demo
 
+The API is deployed on Render and can be tested publicly.
+
+Swagger API documentation:
+
+https://sonatrach-predictive-maintenance-api.onrender.com/docs
+
+Health check endpoint:
+
+https://sonatrach-predictive-maintenance-api.onrender.com/health
+
+Note: the free Render instance may take a few seconds to wake up after inactivity.
 ---
 
 ## Run Tests
