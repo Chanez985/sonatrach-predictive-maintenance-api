@@ -208,6 +208,35 @@ Joblib
 Pytest
 Uvicorn
 Swagger UI
+## Screenshots
+
+### Swagger API Documentation
+
+![Swagger API Documentation](screenshots/01_swagger_api_docs.png)
+
+### Health Check Endpoint
+
+![Health Check](screenshots/02_health_check.png)
+
+### Low Risk Prediction
+
+![Low Risk Prediction](screenshots/03_low_risk_prediction.png)
+
+### Medium Risk Prediction
+
+![Medium Risk Prediction](screenshots/04_medium_risk_prediction.png)
+
+### High Risk Prediction
+
+![High Risk Prediction](screenshots/05_high_risk_prediction.png)
+
+### Critical Risk Prediction
+
+![Critical Risk Prediction](screenshots/06_critical_risk_prediction.png)
+
+### Automated API Tests
+
+![Pytest Results](screenshots/07_pytest_results.png)
 Author
 
 Chanez Benidir
