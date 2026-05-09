@@ -1,0 +1,101 @@
+unit_number,time_in_cycles,RUL,RUL_capped,predicted_RUL,failure_risk,predicted_failure_risk,maintenance_priority,recommendation,asset_health_score,degradation_index,absolute_error
+1,31,112,112,123.88846341917989,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,83.4449364397263,-0.611641140153999,11.888463419179885
+2,49,98,98,120.36229993161677,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,68.07764228704877,-0.22963021997945982,22.362299931616775
+3,126,69,69,66.15406537264015,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,46.88756439763374,0.2971275210178507,2.8459346273598527
+4,106,82,82,82.8825006596195,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,47.61868936248431,0.278952706518287,0.8825006596194953
+5,98,91,91,92.78738161211324,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,59.75051881419048,-0.022628774658693986,1.7873816121132364
+6,105,93,93,84.99989908759497,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,61.9371575236519,-0.07698576536841384,8.000100912405031
+7,160,91,91,103.03420582064496,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,72.16798909849061,-0.3313109149507106,12.034205820644956
+8,166,95,95,74.07421464373925,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,50.86708950155033,0.1982017093752083,20.925785356260747
+9,55,111,111,118.35328771373327,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,59.56209549218489,-0.017944816252837777,7.353287713733266
+10,192,96,96,103.39028911143555,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,62.30394009064019,-0.08610350233154476,7.39028911143555
+11,83,97,97,95.87331569074196,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,48.61241705220429,0.2542499302597413,1.1266843092580388
+12,217,124,124,106.48414841677119,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,62.27432074499957,-0.08536720397148705,17.51585158322881
+13,195,95,95,95.00777213051624,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,54.80720902219854,0.10025546921566593,0.007772130516244147
+14,46,107,107,120.66841080470004,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,58.345193272966526,0.012305788174165274,13.668410804700045
+15,76,83,83,116.51072771011805,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,84.04227052811332,-0.6264900876973493,33.51072771011805
+16,113,84,84,95.23343612699179,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,73.79391941915046,-0.3717294253119981,11.23343612699179
+17,165,50,50,47.211215398633044,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,47.168057862795145,0.29015481875389465,2.788784601366956
+18,133,28,28,52.24248122693593,High Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,38.107575194527044,0.5153866186363414,24.24248122693593
+19,135,87,87,93.3407322552452,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,65.03695762156971,-0.15404275900684067,6.3407322552452
+20,184,16,16,21.97687491604724,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,11.383352391070956,1.179715995211651,5.97687491604724
+21,148,57,57,59.87263459481276,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,66.25588550961321,-0.18434371892285645,2.8726345948127587
+22,39,111,111,121.33958444579703,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,76.51579625125264,-0.4393917387227128,10.33958444579703
+23,130,113,113,106.28144637634657,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,82.49487738999723,-0.5880239094169977,6.718553623653435
+24,186,20,20,24.264079543749283,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,25.330220136683145,0.8330150257292904,4.264079543749283
+25,48,145,125,119.89716176067934,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,72.96971115832842,-0.3512406812947423,5.102838239320661
+26,76,119,119,108.8802298579502,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,83.92651675821902,-0.6236125997211538,10.119770142049802
+27,140,66,66,90.97696925574752,Medium Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,68.32677799097877,-0.2358234091356682,24.97696925574752
+28,158,97,97,86.57148823792832,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,58.81919005282881,0.0005228455015015714,10.428511762071679
+29,171,90,90,103.17906468444164,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,67.54948093324138,-0.21650081653575462,13.179064684441641
+30,143,115,115,74.99234047222356,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,50.9308489147304,0.19661673339591668,40.00765952777644
+31,196,8,8,16.199889272295596,Critical Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,4.442390041613164,1.3522592801692839,8.199889272295596
+32,145,48,48,43.07821003356623,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,59.48780041432678,-0.0160979373699948,4.921789966433771
+33,50,106,106,119.03492977619776,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,60.939975394449505,-0.05219711624296974,13.034929776197757
+34,203,7,7,6.347753248610239,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,0.0,1.5074222703511113,0.652246751389761
+35,198,11,11,8.320326379991343,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,0.0,1.5084063064135969,2.679673620008657
+36,126,19,19,24.006449598646505,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,18.2018541164208,1.010216921891789,5.006449598646505
+37,121,21,21,53.92122394811718,High Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,39.24913932836366,0.48700882090093506,32.92122394811718
+38,125,50,50,43.95356319916633,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,39.285327004825255,0.48610924239044867,6.046436800833668
+39,37,142,125,122.129684096762,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,87.45105237903702,-0.7112279653359278,2.8703159032379943
+40,133,28,28,26.73334212383584,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,16.811134028840236,1.0447884121674078,1.2666578761641603
+41,123,18,18,61.7612079545999,High Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,43.79831089052205,0.3739223401434116,43.7612079545999
+42,156,10,10,17.50074415492152,Critical Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,12.322999443225235,1.156357593175063,7.50074415492152
+43,172,59,59,59.64672616450493,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,40.92758969721921,0.44528473053710976,0.6467261645049334
+44,54,109,109,120.45601199891044,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,65.79412421593298,-0.1728649345026967,11.45601199891044
+45,152,114,114,58.3032732846244,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,40.869761915534355,0.44672225388205306,55.6967267153756
+46,146,47,47,46.282672166034054,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,38.04068015516462,0.5170495421990756,0.7173278339659461
+47,73,135,125,111.9070870134853,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,62.71276838088254,-0.09626644121962809,13.092912986514705
+48,78,92,92,107.8581375509173,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,61.95007417132394,-0.07730685640849821,15.858137550917306
+49,303,21,21,17.946568397231786,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,6.26949708654948,1.3068397784301375,3.053431602768214
+50,74,79,79,109.30082032409173,Medium Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,70.9064942175732,-0.29995179502583,30.30082032409173
+51,144,114,114,89.56680751051415,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,62.69985111533961,-0.09594533482007825,24.433192489485847
+52,189,29,29,27.238704174133055,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,27.056298671696588,0.7901069611798058,1.761295825866945
+53,164,26,26,30.458642639479507,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,28.412441861273063,0.7563950075598981,4.458642639479507
+54,121,97,97,112.82127195967088,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,94.9487542183916,-0.8976110689838221,15.82127195967088
+55,113,137,125,99.57601355006823,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,77.2163023019292,-0.4568054068901935,25.423986449931775
+56,136,15,15,15.911469706405024,Critical Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,14.516116984967308,1.1018395471320754,0.9114697064050237
+57,160,103,103,78.16613828055637,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,54.714183022011795,0.10256797443476481,24.833861719443632
+58,176,37,37,43.243436055439275,High Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,30.79684542355664,0.6971218401534751,6.243436055439275
+59,94,114,114,113.9259073437062,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,92.08685008923636,-0.8264678593225809,0.07409265629380002
+60,147,100,100,85.41588524207121,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,60.99272395347741,-0.05350837672721182,14.584114757928788
+61,159,21,21,35.13557336420593,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,24.344380665497635,0.8575217111477081,14.135573364205932
+62,232,54,54,65.84920906490116,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,50.20011941525673,0.21478171714121588,11.84920906490116
+63,155,72,72,57.96199690532592,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,42.12963620255413,0.4154034198110068,14.038003094674082
+64,168,28,28,43.572866562904025,High Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,30.977672128366628,0.692626723758208,15.572866562904025
+65,71,128,125,121.1871593401606,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,100.0,-1.3424252086941544,3.812840659839395
+66,147,14,14,13.652272365246093,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,5.521721498073884,1.3254285057493091,0.3477276347539071
+67,71,77,77,114.33060422459101,Medium Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,73.37639582627918,-0.3613503325242447,37.33060422459101
+68,187,8,8,13.598209874872873,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,6.057513124445945,1.3121094236663684,5.5982098748728735
+69,54,121,121,118.42126932601319,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,65.89048759163548,-0.17526040253093259,2.5787306739868114
+70,152,94,94,83.7832524810967,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,58.38389755584213,0.011343650105543135,10.216747518903304
+71,68,118,118,113.21052430450258,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,78.51949487695114,-0.4892010771885991,4.789475695497416
+72,131,50,50,74.70124051774069,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,54.82442373930495,0.09982753376671659,24.701240517740686
+73,112,131,125,108.65939905114307,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,86.50447261329639,-0.6876972250678909,16.34060094885693
+74,137,126,125,92.58517748785192,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,56.355275530144326,0.06177255183826172,32.41482251214808
+75,88,113,113,104.30466330700034,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,78.0128298675142,-0.47660604487176617,8.69533669299966
+76,205,10,10,12.108815815903027,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,0.0,1.5165529070413595,2.108815815903027
+77,162,34,34,34.4939993355582,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,27.81861833219531,0.7711566871705376,0.4939993355582004
+78,72,107,107,120.36110498711598,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,100.0,-1.1473912250765115,13.36110498711598
+79,101,63,63,95.6891348342438,Medium Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,60.2006691087158,-0.033818924760590584,32.6891348342438
+80,133,90,90,82.88738831704572,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,53.39097999938289,0.13546107840155044,7.112611682954281
+81,213,8,8,8.918186557129983,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,0.0,1.5174186162123322,0.9181865571299834
+82,162,9,9,9.444614215309105,Critical Risk,Critical Risk,Immediate Intervention,Immediate shutdown inspection or emergency maintenance is recommended.,1.7891526437458172,1.4182153066324201,0.4446142153091053
+83,73,137,125,112.64339005179264,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,67.25433253982432,-0.2091638118401267,12.356609948207364
+84,172,58,58,46.710495094041185,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,34.91256235149594,0.5948104771249956,11.289504905958815
+85,34,118,118,122.83287913633298,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,68.45623166085906,-0.2390414587844625,4.832879136332977
+86,110,89,89,79.50447063030526,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,58.54303802931702,0.007387625179804378,9.495529369694736
+87,56,116,116,118.03293219484198,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,83.29425148393676,-0.6078953083864987,2.032932194841976
+88,68,115,115,111.15192409086134,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,64.02115322241846,-0.12879118450180668,3.8480759091386574
+89,177,136,125,93.67167737113672,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,56.82893226631502,0.04999806220894005,31.328322628863276
+90,146,28,28,33.60673920678102,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,28.209116148176662,0.7614494200012429,5.606739206781022
+91,234,38,38,35.24436773820526,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,22.4479081163934,0.9046655489874251,2.7556322617947373
+92,150,20,20,15.204180064274631,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,14.180945441312677,1.110171475221414,4.795819935725369
+93,244,85,85,52.77087255980298,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,33.90417489328708,0.6198776761371076,32.22912744019702
+94,133,55,55,52.21970831470727,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,38.977253749847016,0.493767542312748,2.780291685292731
+95,89,128,125,105.0849126067932,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,76.753500421713,-0.4453007548438801,19.915087393206804
+96,97,137,125,115.25690565725185,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,90.62529489967028,-0.7901355006584675,9.743094342748151
+97,134,82,82,78.3041415366933,Low Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,59.10749178127177,-0.0066439600191187664,3.695858463306706
+98,121,59,59,73.56012044490387,Medium Risk,Medium Risk,Planned Inspection,Plan inspection and increase monitoring frequency.,51.88048319750269,0.17301006181229744,14.560120444903873
+99,97,117,117,113.73369446324006,Low Risk,Low Risk,Normal Monitoring,Continue normal monitoring under standard maintenance schedule.,91.75075218015171,-0.8181129029950353,3.266305536759944
+100,198,20,20,17.876914566046334,High Risk,High Risk,Urgent Maintenance,Schedule urgent maintenance within the next operational window.,10.497504224811172,1.2017370270059091,2.1230854339536656

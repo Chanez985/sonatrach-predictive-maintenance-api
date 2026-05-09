@@ -1,0 +1,5 @@
+,Pred Low Risk,Pred Medium Risk,Pred High Risk,Pred Critical Risk
+True Low Risk,37,17,1,0
+True Medium Risk,3,8,6,0
+True High Risk,0,1,9,8
+True Critical Risk,0,0,0,10

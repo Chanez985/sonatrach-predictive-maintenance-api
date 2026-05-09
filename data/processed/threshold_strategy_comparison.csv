@@ -1,0 +1,5 @@
+Strategy,Critical Threshold,High Threshold,Medium Threshold,Accuracy,Weighted Precision,Weighted Recall,Weighted F1,Critical Recall,High/Critical Recall,Dangerous Underestimations,Minor Underestimations,Overestimations
+Standard,15,40,80,0.81,0.8423423076923078,0.81,0.8186960391633289,0.7,0.8214285714285714,0,12,7
+Conservative_1,20,45,85,0.77,0.8101754578754579,0.77,0.7809070534081087,1.0,0.8928571428571429,0,7,16
+Conservative_2,25,50,90,0.68,0.7337253968253968,0.68,0.6939349816849817,1.0,0.8928571428571429,0,7,25
+Very_Conservative,30,55,95,0.64,0.7178632478632478,0.64,0.6583995556606975,1.0,0.9642857142857143,0,4,32
